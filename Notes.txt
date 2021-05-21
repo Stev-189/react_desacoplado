@@ -1,0 +1,20 @@
+npm init -y
+npm i webpack webpack-cli @babel/core @babel/preset-env @babel/preset-react babel-loader 
+touch webpack.config.js
+npm i html-webpack-plugin
+touch .babelrc
+npm i react react-dom
+npm i webpack-dev-server
+mkdir src/components src/container
+mkdir assets
+touch assets/data.json
+mkdir media
+npm i bootswatch
+npm i css-loader style-loader
+npm i eslint eslint-loader eslint-plugin-react
+touch .eslintrc.js
+npm i props-types
+touch .env
+npm i dotenv-webpack
+
+//01:28:00
